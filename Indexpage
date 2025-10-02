@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Moñitos - Tu Pelo Seguro, Tu Estilo Único</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #fff8f0;
+      margin: 0;
+      padding: 0;
+      color: #4b2e2e;
+    }
+    header {
+      background-color: #ffb6c1;
+      text-align: center;
+      padding: 30px 20px;
+    }
+    header img {
+      width: 120px;
+      border-radius: 50%;
+    }
+    header h1 {
+      margin: 10px 0 5px;
+      font-size: 2.5em;
+      letter-spacing: 2px;
+    }
+    header p {
+      font-style: italic;
+      font-size: 1.2em;
+    }
+    section {
+      padding: 20px;
+    }
+    h2 {
+      color: #d94f70;
+      margin-bottom: 10px;
+    }
+    .about, .contact {
+      margin-bottom: 30px;
+    }
+    .product-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+    }
+    .product {
+      background-color: #ffe4e1;
+      padding: 10px;
+      border-radius: 8px;
+      width: 200px;
+      text-align: center;
+    }
+    .product img {
+      width: 100%;
+      border-radius: 8px;
+      margin-bottom: 10px;
+    }
+    footer {
+      background-color: #ffb6c1;
+      text-align: center;
+      padding: 10px;
+      font-size: 0.9em;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="https://copilot.microsoft.com/th/id/BCO.235fe671-4c77-493f-8eee-2b5820a39b0c.png" alt="Logo Moñitos">
+    <h1>MOÑITOS</h1>
+    <p>Tu Pelo Seguro, Tu Estilo Único</p>
+  </header>
+
+  <section class="about">
+    <h2>¿Quiénes somos?</h2>
+    <p>Moñitos es un emprendimiento escolar dedicado a crear scrunchies, coletas y moños hechos con tela reciclada. Buscamos cuidar el planeta mientras te ayudamos a lucir increíble.</p>
+  </section>
+
+  <section class="products">
+    <h2>Productos</h2>
+    <div class="product-list">
+      <div class="product">
+        <img src="https://example.com/scrunchie-clasico.jpg" alt="Scrunchie Clásico">
+        <strong>Scrunchie Clásico</strong><br>
+        Tela suave reciclada
+      </div>
+      <div class="product">
+        <img src="https://example.com/mono-elegante.jpg" alt="Moño Elegante">
+        <strong>Moño Elegante</strong><br>
+        Ideal para eventos
+      </div>
+      <div class="product">
+        <img src="https://example.com/coleta-colorida.jpg" alt="Coleta Colorida">
+        <strong>Coleta Colorida</strong><br>
+        Estilo juvenil
+      </div>
+    </div>
+  </section>
+
+  <section class="contact">
+    <h2>Contacto</h2>
+    <p>¿Quieres saber más o hacer un pedido? Escríbenos a <strong>monitos@ejemplo.com</strong> o síguenos en redes sociales como <strong>@monitasbethle2013</strong>.</p>
+  </section>
+
+  <footer>
+    &copy; 2025 Moñitos. Hecho con amor y tela reciclada 💖
+  </footer>
+
+</body>
+</html>
